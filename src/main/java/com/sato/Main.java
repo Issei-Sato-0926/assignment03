@@ -17,7 +17,6 @@ public class Main {
         System.out.println("2番目の要素を表示：" + names.get(2));
         System.out.println("3番目の要素を表示：" + names.get(3));
 
-        System.out.println("-------------------------------");
         try {
             System.out.println("4番目の要素を表示：" + names.get(4));
         } catch (IndexOutOfBoundsException e) {
